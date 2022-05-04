@@ -1,6 +1,11 @@
 <template>
   <ul>
-    <li v-for="product in products" :key="product.slug">{{product.title}}</li>
+    <li v-for="product in products" :key="product.slug">
+      <nuxt-link :to="`/${type}/${product.slug}`">
+        <img :src="product.cover" class="w-auto-full" />
+        <h3>{{product.title}}</h3>
+      </nuxt-link>
+    </li>
   </ul>
 </template>
 
@@ -11,6 +16,10 @@ export default {
     products: {
       required: true,
       type: Array
+    },
+    type: {
+      type: String,
+      default: 'products'
     }
   }
 }

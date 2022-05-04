@@ -13,6 +13,13 @@
         </ul>
       </li>
       <li class="flex-1 ml-2 relative pt-3 pb-3 menu-base">
+        Equipments
+        <ul class="header-menu">
+          <nuxt-link to="/equipments/production_equipment">Production Equipments</nuxt-link>
+          <nuxt-link to="/equipments/testing_equipment">Testing Equipments</nuxt-link>
+        </ul>
+      </li>
+      <li class="flex-1 ml-2 relative pt-3 pb-3 menu-base">
         About Us
         <ul class="header-menu">
           <nuxt-link to="/pages/about-us">Company Introduction</nuxt-link>
@@ -36,7 +43,8 @@ export default {
 
 <style lang="postcss" scoped>
 nav {
-  border-bottom: 2px solid #7c7c7c
+  border-bottom: 2px solid #7c7c7c;
+  background: white;
 }
 .ml-2 {
   position: relative;
@@ -52,6 +60,7 @@ nav {
   padding: 12px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 6px;
+  min-width: 220px;
 }
 .header-menu a {
   display: block;

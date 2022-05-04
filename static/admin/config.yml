@@ -80,3 +80,31 @@ collections:
           summary: '{{fields.image}}',
           field: { label: 'Image', name: 'image', widget: 'image' },
         }
+  - name: 'equipments'
+      label: 'Equipments'
+      label_singular: 'Equipment'
+      folder: 'content/equipments'
+      create: true
+      format: 'frontmatter'
+      slug: '{{slug}}'
+      preview_path: 'equipments/{{slug}}'
+      fields:
+        - {
+          label: 'Product Category',
+          name: 'category',
+          widget: 'select',
+          default: 'testing_equipment',
+          options: [{ label: 'Testing Equipment', value: 'testing_equipment' }, { label: 'Production Equipment', value: 'production_equipment' }],
+        }
+        - { label: 'Title', name: 'title', widget: 'string', required: true }
+        - { label: 'Description', name: 'description', widget: 'string', required: false }
+        - { label: 'Cover Image', name: 'cover', widget: 'image', required: true, allow_multiple: false }
+        - { label: 'Content', name: 'body', widget: 'markdown', required: false }
+        - {
+          label: 'Gallery',
+          name: 'gallery',
+          widget: 'list',
+          required: false,
+          summary: '{{fields.image}}',
+          field: { label: 'Image', name: 'image', widget: 'image' },
+        }
