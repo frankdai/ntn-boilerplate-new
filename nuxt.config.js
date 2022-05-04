@@ -18,7 +18,7 @@ export default {
     lang: SITE_INFO.sitelang || 'en-US'
   },
   /*
-   ** Headers of the page
+   ** Headers of the pages
    */
   head: {
     title: SITE_INFO.sitename || process.env.npm_package_name || '',

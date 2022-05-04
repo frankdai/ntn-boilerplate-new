@@ -1,5 +1,5 @@
 ---
-category: moto_parts
+category: motor_parts
 title: Placeholder Bacon
 description: What is life without bacon?
 cover: https://baconmockup.com/400/200
