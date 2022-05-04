@@ -15,8 +15,11 @@
           <br>
           E-mail:sales@yyxinghe.com
         </div>
-        <div class="w-1/2">
-
+        <div class="w-1/4"></div>
+        <div class="w-1/4 ">
+          <nuxt-link to="/products/auto_parts" class="block">Auto Parts</nuxt-link>
+          <nuxt-link to="/products/moto_parts" class="block">Motor Parts</nuxt-link>
+          <nuxt-link to="/products/precision" class="block">Precision Equipments</nuxt-link>
         </div>
       </div>
     </footer>

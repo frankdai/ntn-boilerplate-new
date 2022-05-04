@@ -1,6 +1,6 @@
 ---
 category: precision
-title: Placeholder Bears
+title: Focus knob fixing sleeve
 description: Necessary to show how a project with the category Animals is used
 cover: https://placebear.com/400/200
 gallery: ['https://placebear.com/g/800/400', 'https://placebear.com/600/600']
