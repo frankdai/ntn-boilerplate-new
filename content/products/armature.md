@@ -3,9 +3,7 @@ category: auto_parts
 title: Armature
 description: What is life without bacon?
 cover: /img/armature.jpeg
-gallery:
-  - https://baconmockup.com/600/300
-  - https://baconmockup.com/600/600
+gallery: []
 ---
 
 It is easy to write **markdown**-*enabled* content like this placeholder text, with support for images.
